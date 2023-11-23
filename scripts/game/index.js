@@ -82,20 +82,32 @@ const stateGameOption = {
 		words: [
 			{
 				id: 0,
-				viewText: 'звонит',
+				viewText: 'Звонит',
 				trueWordIndex: 4,
 				isAnswered: false,
 			},
 			{
 				id: 1,
-				viewText: 'Звонит',
-				trueWordIndex: 4,
+				viewText: 'Досуг',
+				trueWordIndex: 3,
 				isAnswered: false,
 			},
 			{
 				id: 2,
-				viewText: 'Звонит',
-				trueWordIndex: 4,
+				viewText: 'Торты',
+				trueWordIndex: 1,
+				isAnswered: false,
+			},
+			{
+				id: 3,
+				viewText: 'Свёкла',
+				trueWordIndex: 2,
+				isAnswered: false,
+			},
+			{
+				id: 4,
+				viewText: 'Бармен',
+				trueWordIndex: 1,
 				isAnswered: false,
 			},
 		],
@@ -108,14 +120,32 @@ const stateGameOption = {
 		words: [
 			{
 				id: 0,
-				viewText: 'кисель',
-				trueWordIndex: 3,
+				viewText: 'Жалюзи',
+				trueWordIndex: 5,
 				isAnswered: false,
 			},
 			{
 				id: 1,
-				viewText: 'кисель',
-				trueWordIndex: 3,
+				viewText: 'Каталог',
+				trueWordIndex: 5,
+				isAnswered: false,
+			},
+			{
+				id: 2,
+				viewText: 'Маркетинг',
+				trueWordIndex: 1,
+				isAnswered: false,
+			},
+			{
+				id: 3,
+				viewText: 'Туфля',
+				trueWordIndex: 1,
+				isAnswered: false,
+			},
+			{
+				id: 4,
+				viewText: 'Древко',
+				trueWordIndex: 2,
 				isAnswered: false,
 			},
 		],
@@ -128,7 +158,31 @@ const stateGameOption = {
 		words: [
 			{
 				id: 0,
-				viewText: 'сом',
+				viewText: 'кухонный',
+				trueWordIndex: 1,
+				isAnswered: false,
+			},
+			{
+				id: 1,
+				viewText: 'Ходатайство',
+				trueWordIndex: 3,
+				isAnswered: false,
+			},
+			{
+				id: 2,
+				viewText: 'Сливовый',
+				trueWordIndex: 2,
+				isAnswered: false,
+			},
+			{
+				id: 3,
+				viewText: 'Иконопись',
+				trueWordIndex: 0,
+				isAnswered: false,
+			},
+			{
+				id: 4,
+				viewText: 'Камбала',
 				trueWordIndex: 1,
 				isAnswered: false,
 			},
@@ -142,8 +196,32 @@ const stateGameOption = {
 		words: [
 			{
 				id: 0,
-				viewText: 'кот',
+				viewText: 'Еретик',
+				trueWordIndex: 4,
+				isAnswered: false,
+			},
+			{
+				id: 1,
+				viewText: 'Мельком',
 				trueWordIndex: 1,
+				isAnswered: false,
+			},
+			{
+				id: 2,
+				viewText: 'Генезис',
+				trueWordIndex: 1,
+				isAnswered: false,
+			},
+			{
+				id: 3,
+				viewText: 'Асбест',
+				trueWordIndex: 3,
+				isAnswered: false,
+			},
+			{
+				id: 4,
+				viewText: 'Фалафель',
+				trueWordIndex: 3,
 				isAnswered: false,
 			},
 		],
