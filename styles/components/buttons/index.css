@@ -1,0 +1,29 @@
+.btn-wrapper {
+	height: 50px;
+
+	.btn-v1 {
+		width: 100%;
+		height: 100%;
+		border-radius: 20px;
+		background: var(--color_bg);
+		color: var(--color_text-2);
+
+		font-family: Montserrat;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 25.6px; /* 160% */
+	}
+	.btn-v2 {
+		width: 100%;
+		height: 100%;
+		border-radius: 20px;
+		background: var(--color_text-2);
+
+		font-family: Montserrat;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 25.6px; /* 160% */
+	}
+}

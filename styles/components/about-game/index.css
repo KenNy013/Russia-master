@@ -1,0 +1,43 @@
+.about-game {
+	.about-game__wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+	}
+
+	.about-game__info-container {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+
+		min-height: 324px;
+
+		gap: 20px;
+
+		align-items: center;
+	}
+
+	.about-game__img-block {
+		grid-column: 1/6;
+		height: 100%;
+	}
+
+	.about-game__text-block {
+		grid-column: 6/13;
+
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+
+		& h3 {
+			color: var(--color_bg);
+		}
+
+		& h3 {
+			color: var(--color_bg);
+		}
+
+		.about-game__btn {
+			max-width: 316px;
+		}
+	}
+}

@@ -1,0 +1,31 @@
+.footer {
+	.footer__top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		height: 57px;
+	}
+
+	.footer__nav {
+		display: flex;
+		gap: 10px;
+	}
+
+	.footer__bottom {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		padding: 20px 0px;
+
+		& h4 {
+			color: var(--color_bg);
+			font-family: Montserrat;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 25.6px; /* 160% */
+		}
+	}
+}

@@ -1,0 +1,29 @@
+.question {
+	.accordion {
+		--bs-accordion-border-width: 0px;
+		--bs-accordion-btn-padding-x: 20px;
+		--bs-accordion-btn-padding-y: 10px;
+		--bs-accordion-active-bg: var(--color_text-2);
+		--bs-accordion-btn-focus-box-shadow: none;
+		--bs-accordion-body-padding-y: 10px;
+
+		margin-top: 50px;
+
+		.accordion-button {
+			color: #000;
+			font-family: Montserrat;
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 38.4px; /* 160% */
+		}
+
+		.accordion-body {
+			color: #000;
+			font-family: Georgia;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 25.6px; /* 160% */
+		}
+	}
+}

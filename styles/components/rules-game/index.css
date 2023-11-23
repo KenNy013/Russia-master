@@ -1,0 +1,46 @@
+.rules-game__swiper {
+	margin-top: 50px;
+
+	width: 100%;
+
+	.rules-game__swiper-wrapper {
+		min-height: 313px;
+	}
+	.rules-game__slides {
+		height: auto;
+		border-radius: 20px;
+
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+
+		padding: 20px;
+
+		position: relative;
+
+		& svg {
+			position: absolute;
+			right: 20px;
+			bottom: 20px;
+
+			& path {
+				fill: var(--color_bg);
+			}
+		}
+	}
+
+	.rules-game__slides:nth-of-type(2n) {
+		color: var(--color_text-2);
+		background-color: var(--color_bg);
+
+		& svg {
+			position: absolute;
+			right: 20px;
+			bottom: 20px;
+
+			& path {
+				fill: var(--color_text-2);
+			}
+		}
+	}
+}
